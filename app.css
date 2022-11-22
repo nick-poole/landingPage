@@ -1,12 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+
 * {
+    margin: 0;
+    padding: 0;
+    border: 0;
 
 }
 body {
+    font-family: 'Roboto', sans-serif;
 
 }
 
 /* header & nav */
 header {
+    border: 5px dashed green;
+    background-color: #1f2937;
+    color: #e5e7eb
 
 }
 nav {
@@ -47,4 +56,66 @@ nav {
 
 .subsect_right {
 
+}
+
+/* main */
+.random_section {
+
+}
+
+
+.quote_section {
+
+}
+.quote_section blockquote {
+    border: ;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: ;
+
+}
+.author {
+
+}
+.cta_section {
+
+}
+
+.cta_banner {
+    border: 2px solid purple;
+    background-color: #3882f6;
+}
+.cta_text {
+    color: #1f2937;
+}
+.cta_text h1 {
+
+}
+.cta_text p {
+
+}
+.cta_button {
+    border: 12px 24px solid white ;
+    background-color: #3882f6;
+
+}
+
+/*footer*/
+footer {
+    border: 2px dashed teal;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding:;
+    border:;
+    background-color: #1f2937;
+    color: #e5e7eb;
+
+}
+footer p {
+    border: 2px dashed white;
+    margin-top: 40px; 
+    align-items: center;
+    font-size: 18px;
+    color: #e5e7eb;
 }
